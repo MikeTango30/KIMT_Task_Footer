@@ -1,0 +1,44 @@
+/*Base*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*Headings*/
+
+/*Lists*/
+li {
+	list-style: none;
+}
+
+/*Colors*/
+
+body {
+	background-color: #17232c;
+}
+
+/*Layout*/
+
+section div {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+select {
+	display: block;
+}
+
+/*section:nth-child(2) {
+	display: inline-block;
+}*/
