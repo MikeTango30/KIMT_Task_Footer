@@ -75,6 +75,11 @@ i {
 	color: #93AABA;
 }
 
+i:hover {
+    background-color: rgba(147, 170, 186, 0.5);
+    border-radius: 3px;
+}
+
 /*Lists*/
 li {
 	list-style: none;
