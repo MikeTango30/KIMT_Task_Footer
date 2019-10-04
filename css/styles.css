@@ -1,3 +1,8 @@
+/*300
+768
+992
+1200*/
+
 /*Base*/
 
 * {
@@ -90,6 +95,33 @@ section:nth-child(1) li {
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border-bottom: 1px solid #93AABA;
+}
+
+@media(min-width: 300px) and (min-width: 768px) {
+	.container {
+		width: 80%;
+	}
+
+	section:nth-child(1) div {
+		width: 33%;
+	}
+
+	section:nth-child(1) div:nth-child(0n+3)  {
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	}
+
+	section:nth-child(1) div:nth-child(4) {
+		display: block;
+		width: 100%;
+	}
+
+	section:nth-child(2) div li {
+		padding-right: 0;
+	}
 }
 
 footer:first-child {
